@@ -1,3 +1,1 @@
-FROM duluca/minimal-node-web-server:8.11.1
-WORKDIR /usr/src/app
-COPY dist/local-weather-app public
+FROM kastapov/local-weather-app:1.0.0
